@@ -21,8 +21,8 @@ The latter allows tests to be executed on different operating systems. This is a
 !define GRID_HUB {http://remote-selenium.local:4444/wd/hub}
 
 !|script     |selenium driver setup                                                                                 |
-|note        |set property           |webdriver.chrome.driver|value|${FITNESSE_ROOTPATH}/webdrivers/chromedriver.exe|
-|set property|webdriver.chrome.driver|value                  |${FITNESSE_ROOTPATH}/webdrivers/osx/chromedriver      |
+|set property           |webdriver.chrome.driver|value|${FITNESSE_ROOTPATH}/webdrivers/chromedriver.exe|
+|note        |set property|webdriver.chrome.driver|value                  |${FITNESSE_ROOTPATH}/webdrivers/osx/chromedriver      |
 |startDriver |org.openqa.selenium.chrome.ChromeDriver                                                               |
 |set property|webdriver.ie.driver    |value                  |${FITNESSE_ROOTPATH}/webdrivers/IEDriverServer.exe    |
 |note        |startDriver            |org.openqa.selenium.ie.InternetExplorerDriver                                 |

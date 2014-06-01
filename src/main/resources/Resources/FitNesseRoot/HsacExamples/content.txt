@@ -52,7 +52,7 @@ To ensure the fixtures (and all dependencies as specified in the project's pom.x
 !*> Class path for these examples
 The location when working standalone:
 !path fixtures
-!path fixtures/*.jar
+!path *.jar
 
 When developing and changing the fixtures, we will work based on the pom.xml:
 !pomFile ../pom.xml@compile

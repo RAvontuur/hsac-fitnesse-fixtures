@@ -12,3 +12,7 @@ wiki/fixtures/
 properties
 updateDoNotCopyOverList
 updateList
+/target/
+/nbactions.xml
+/run.bat
+/dependency-reduced-pom.xml
